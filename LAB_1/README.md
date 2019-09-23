@@ -13,13 +13,15 @@
 * Зміна
 * Зарплатня  
 
-    CREATE TABLE administrator
-    (
-      AdminId SERIAL PRIMARY KEY,
-      FullName VARCHAR(50),
-      Shift INTEGER,
-      Salary INTEGER
-    );  
+```
+CREATE TABLE administrator
+ (
+   AdminId SERIAL PRIMARY KEY,
+   FullName VARCHAR(50),
+   Shift INTEGER,
+   Salary INTEGER
+ ); 
+ ```
 
 
     
